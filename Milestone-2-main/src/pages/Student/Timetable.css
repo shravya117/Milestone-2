@@ -1,0 +1,26 @@
+/* src/pages/Student/Timetable.css */
+
+.table {
+    width: 80%; /* Reduce table size */
+    margin: auto;
+    font-size: 0.9rem;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    vertical-align: middle;
+  }
+  
+  th {
+    background-color: #f8f9fa;
+  }
+  
+  .timetable-table {
+    border-collapse: collapse;
+  }
+  
+  .timetable-table th, .timetable-table td {
+    border: 1px solid #dee2e6;
+  }
+  

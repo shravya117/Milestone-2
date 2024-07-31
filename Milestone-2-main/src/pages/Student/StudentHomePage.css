@@ -1,0 +1,49 @@
+/* StudentHomePage.css */
+
+.student-home-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.profile-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.nav-link {
+  font-size: 1.1rem; /* Adjust font size of the links */
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Optional: Change color on hover */
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* Ensure the card takes up the correct space */
+.main-content-card {
+  display: flex;
+  justify-content: center; /* Center content if needed */
+}
+
+.card {
+  flex: 1; /* Allow the card to grow and fill the space */
+  max-width: 100%; /* Ensure it doesn't exceed available space */
+}

@@ -1,0 +1,17 @@
+/* src/pages/Teacher/TeacherTimetablePage.css */
+
+.table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  tbody td {
+    height: 50px; /* Adjust height as needed */
+  }
+  

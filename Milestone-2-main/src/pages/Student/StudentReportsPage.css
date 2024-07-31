@@ -1,0 +1,16 @@
+/* StudentReportsPage.css */
+
+.table {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .table thead {
+    background-color: #f8f9fa;
+  }
+  

@@ -1,0 +1,26 @@
+/* StudentAttendancePage.css */
+
+.table {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto; /* Allows horizontal scrolling if the table is too wide */
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .note {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Optional: Add some padding and border to table cells */
+  .table td, .table th {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+  }
+  
